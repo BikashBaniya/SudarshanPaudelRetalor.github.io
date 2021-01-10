@@ -1,0 +1,241 @@
+/*.......media.......*/
+@media screen and (max-width:1200px){
+  .about-box-container{
+    min-height: 80px;
+    
+   
+  }
+  .inner-container{
+      padding: 80px;
+  }
+}
+
+@media screen and (max-width:1000px){
+  .about-container {
+    margin-top: 4%;
+}
+   .about-section{
+      background-size: 100%;
+      padding: 160px 40px;
+  }
+  .inner-container{
+      width: 100%;
+  }
+  
+.container-fluids{
+  display: block;
+}
+}
+
+@media  screen and (max-width:786px){
+    html {
+      font-size: 100%;
+    }
+    .nav-ul{
+      display: none;
+      flex-direction: column;
+      width: 100%;
+    }
+    .nav-ul.show{
+      display: flex;
+    }
+    .hamburger{
+    display: block;
+    }
+    .contact{
+      padding: 50px;
+    }
+    .container-contact{
+      flex-direction: column;
+    }
+    .container-contact .contactInfo{
+      margin-bottom: 40px;
+    }
+    .container-contact .contactInfo,
+    .contactForm{
+      width: 100%;
+    }
+   
+  .row-box {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .row-boxrl {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1.9rem;
+    padding: 0;
+      
+}  
+  .content p{
+    font-size: .9rem;
+  }
+  .title {
+   
+    padding: 1.5rem;
+}
+.columnbox {
+flex-direction: column;
+}
+
+.about-container {
+  margin-top: 1%;
+}
+.question h3 {
+  font-size: 30px;
+ }
+ .productbar .text-block p{
+    width: 100%;
+    bottom: 1.5rem;
+ }
+ .productbar .text-block a h1 {
+   margin-top: -18px;
+   margin-left: -28px;
+ }
+ .productbar .text-block h5{
+ font-size: 1rem;
+ bottom: .8rem;
+ }
+ .question h3{
+  width: 100%;
+}
+}
+
+@media  screen and (max-width:718px)
+{
+  .colbox-2{
+    width: 60%;
+  }
+  .row-boxrl{
+  display: block;
+  margin-bottom: 3rem;
+     
+} 
+.question {
+  padding: 6rem;
+}
+
+.about-section{
+  padding: 0;
+}
+.inner-container{
+  padding: 60px;
+}
+#nearby-similar-homes .container h2{
+  font-size: 1.5rem;
+}
+#nearby-similar-homes .container::before {
+   top: -1px;
+ 
+}
+.productbar .text-block p{
+ display: none;
+}
+.productbar .text-block a h1 {
+  margin-top: -18px;
+  margin-left: -28px;
+}
+.productbar .text-block h5{
+font-size: 1rem;
+bottom: .8rem;
+}
+}  
+
+    
+@media screen and (max-width:600px){
+  .colbox-2{
+    width: 80%;
+  }
+  .about-section{
+      padding: 0;
+  }
+  .inner-container{
+      padding: 60px;
+  }
+  .question {
+    padding: 3rem;
+  
+  }
+  .productbar .text-block p{
+    display: none;
+  }
+  .productbar .text-block a h1 {
+    margin-top: -18px;
+    margin-left: -28px;
+}
+.productbar .text-block h5{
+  font-size: 1rem;
+  bottom: .8rem;
+}
+}   
+
+@media screen and (max-width:514px){
+  .colbox-2{
+    width: 100%;
+  }
+    .question {
+    padding: 3rem;
+  
+  }
+  .question h3 {
+   font-size: 18px;
+  }
+  .productbar .text-block a h1 {
+    margin-top: -18px;
+    margin-left: -28px;
+}
+  .productbar .text-block p{
+    display: none;
+  }
+  .productbar .text-block h5{
+    font-size: 1rem;
+    bottom: .8rem;
+  }
+  #nearby-similar-homes .container h2{
+    font-size: 1rem;
+  }
+  #nearby-similar-homes .container::before {
+    top: -12px;
+  
+ }
+ .question h3{
+  font-size: 16px;
+  border-bottom: none;
+}
+}  
+@media screen and (max-width:480px){
+  html{
+    font-size: 60%;
+  }
+  .contact{
+    padding: 100px;
+  }
+}
+ 
+
+@media screen and (max-width:320px){
+ 
+  html{
+    font-size: 50%;
+ 
+  }
+  .title{
+    width: 100%;
+ 
+  }
+  .row-box{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+   }
+  
+  .question h3{
+     font-size: 12px;
+     border-bottom: none;
+  }
+  .contact{
+    padding: 100px;
+  }
+}
+    /* end: media queries */
