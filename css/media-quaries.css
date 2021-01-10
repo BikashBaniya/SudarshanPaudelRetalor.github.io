@@ -210,6 +210,14 @@ bottom: .8rem;
   .contact{
     padding: 100px;
   }
+  #nearby-similar-homes .container::before{
+    top: -7px;
+  }
+  .question h3 {
+    width: 100%;
+    font-size: 13px;
+ 
+}
 }
  
 
