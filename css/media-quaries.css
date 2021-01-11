@@ -246,22 +246,40 @@ bottom: .8rem;
     font-size: 100%;
   }
   .header{
-     padding-bottom: 14rem;
+     padding-bottom: 10rem;
+  }
+  .about-box-container{
+    display: inline-block;
   }
   .colbox-2{
-     margin-top: 1rem;
-   
-  }
-  .colbox-2 h1{
-    font-size: 1rem;
-    line-height: 1rem;
-    margin: 1rem 0;
-    text-align: center;
-  }
-  .colbox-2 p{
- text-align: center;
-       
-  }
+    margin-top: 4rem;
+    margin-right: 58px;
+ }
+ .colbox-2 h1{
+ display: none;
+ }
+ .colbox-2 p{
+   width: max-content;
+   font-size: 14px;
+ }
+ .btn-1{
+   padding: 0 0;
+   font-size: 1.2rem;
+   font-weight: 300;
+   margin: -4px 22px;
+
+ }
+ .inner-container {
+   padding: 32px;
+}
+ .title{
+   font-size: 15px;
+   margin: 8px;
+}
+  .box-container {
+    padding-left: 12px;
+    padding-right: 12px;
+   }
   
   #nearby-similar-homes .container::before{
     top: -7px;
@@ -275,8 +293,14 @@ bottom: .8rem;
   padding: 1rem 1rem;
  
 }
+.column-boxr {
+   margin-bottom: 46px;
+}
 #btnScrollToTop{
   display: none !important;
+}
+content p {
+  font-size: 1rem;
 }
 }
  
